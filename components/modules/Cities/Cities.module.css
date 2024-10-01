@@ -1,0 +1,68 @@
+.mantineCarouselControls {
+  display: none;
+}
+.control {
+  display: none;
+}
+.textWrapper {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 64px;
+}
+.textSize {
+  font-size: 40px;
+}
+.citiesCarousel {
+  margin-inline: auto;
+  width: 1277px;
+  flex-direction: column;
+}
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transition: width 250ms ease;
+  background-color: #d9d9d9;
+  margin-top: 60px;
+  &[data-active] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #00b200;
+  }
+}
+.outerContainerCarouselSlide {
+  flex-direction: column;
+  margin-inline: 15px;
+}
+.textSlideOuterContainer {
+  align-items: center;
+  gap: 5px;
+}
+.textSlideOuterContainerAr {
+  align-items: center;
+  gap: 5px;
+  flex-direction: row-reverse;
+}
+.slideName{
+    text-decoration: underline;
+}
+.citiesTitle{
+margin-top:80px;
+font-size:20px;
+}
+
+@media (max-width: 1300px) {
+  .citiesCarousel {
+    margin-inline: auto;
+    width: 95%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .carouselContainerWidth {
+    width: fit-content;
+    margin-inline: auto;
+  }
+}

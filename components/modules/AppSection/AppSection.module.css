@@ -1,0 +1,70 @@
+.ourVehiclesOuterContainer {
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 128px;
+}
+.textWrapper {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 64px;
+}
+.textSize {
+  font-size: 40px;
+}
+.howToLimeContainer {
+  flex-wrap: wrap;
+}
+.limeItemContainer {
+  width: 413px;
+  height: 444px;
+  border-radius: 20px;
+  margin-inline: auto;
+}
+.imageBorderRadius {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width:414px;
+  height:290px;
+  object-fit:contain;
+}
+.textSection {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-top: 40px;
+}
+.titleSection {
+  font-size: 20px;
+  margin-top: -5px;
+  height: 100%;
+}
+.titleFontSize{
+font-size:20px;
+}
+.descriptionSection {
+  font-size: 14px;
+  width: 227px;
+  height: 100%;
+}
+
+@media (max-width: 576px) {
+  .limeItemContainer {
+    width: 340px;
+    height:auto;
+    object-fit: cover;
+    object-position: initial;
+  }
+  .imageBorderRadius {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width:338px;
+    height:290px;
+    object-fit:fill;
+  }
+  .textSection {
+    padding-top: 20px;
+  }
+}

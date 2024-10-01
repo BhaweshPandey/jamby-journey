@@ -1,0 +1,80 @@
+.ourVehiclesOuterContainer {
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 128px;
+}
+.textWrapper {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 64px;
+  margin-top: 40px;
+}
+.textSize {
+  font-size: 40px;
+}
+.howToLimeContainer {
+  flex-wrap: wrap;
+}
+.limeItemContainer {
+  width: 413px;
+  height: 444px;
+  border-radius: 20px;
+  margin-inline: auto;
+}
+.imageBorderRadius {
+  border-radius: 20px;
+  width: 414px;
+  height: 290px;
+  object-fit: contain;
+}
+.titleSection {
+  font-size: 20px;
+  margin-top: -5px;
+  height: 100%;
+}
+.descriptionSection {
+  font-size: 14px;
+  width: 227px;
+  height: 100%;
+}
+.titleSize {
+  font-size: 16px;
+  margin-top: 24px;
+}
+.descriptionHeight {
+  font-size: 28px;
+  height: 128px;
+}
+.authorAndDate {
+  font-size: 16px;
+}
+.viewMoreContainer {
+  margin-top: 160px;
+}
+.viewMore {
+  width: 122px;
+  height: 48px;
+  border-radius: 40px;
+}
+.titleLimeTimes{
+font-size:20px;
+}
+@media (max-width: 576px) {
+  .limeItemContainer {
+    width: 340px;
+    height: auto;
+    object-fit: cover;
+    object-position: initial;
+  }
+  .imageBorderRadius {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 338px;
+    height: 290px;
+    object-fit: fill;
+  }
+  .textSection {
+    padding-top: 20px;
+  }
+}

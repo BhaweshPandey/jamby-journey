@@ -1,0 +1,92 @@
+.logoOuterContainer {
+  width: 160px;
+  height: 56px;
+}
+.footerContainer {
+  width: 90%;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+.joinUsWrapper {
+  flex-direction: column;
+  gap: 20px;
+}
+.joinUsInnerWrapper {
+  height: 45px;
+  align-items: center;
+  justify-content: space-between;
+}
+.aboutUsInnerWrapper {
+  height: 45px;
+  align-items: center;
+  justify-content: space-between;
+}
+.programsInnerWrapper {
+  height: 45px;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerTitleSize {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.footerMobileTitleSize {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.careers {
+  font-size: 14px;
+}
+.limeTimeBlog {
+  font-size: 14px;
+}
+.press {
+  font-size: 14px;
+}
+.partners {
+  font-size: 14px;
+}
+.aboutUsWrapper {
+  flex-direction: column;
+}
+.programsWrapper {
+  flex-direction: column;
+}
+.findLocation {
+  flex-direction: column;
+}
+.footerFontSize {
+  font-size: 14px;
+}
+.copyrightNoticeFontSize {
+  font-size: 14px;
+  text-decoration: underline;
+}
+.copyrightNotice {
+  justify-content: space-between;
+  width: 90%;
+  margin-inline: auto;
+  height: 100px;
+  align-items: center;
+}
+.footerSubheading {
+  gap: 40px;
+}
+@media (max-width: 768px) {
+  .footerContainer {
+    flex-direction: column;
+  }
+  .copyrightNotice {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    gap:16px;
+  }
+  .footerSubheading {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 10px;
+  }
+}

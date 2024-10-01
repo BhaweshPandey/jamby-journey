@@ -1,0 +1,24 @@
+.downloadAppOuterContainer {
+  /* height: 967px; */
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.downloadAppSize {
+  font-size: 40px;
+}
+.appStoreIcon {
+  width: 150px;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .downloadAppOuterContainer {
+    flex-direction: column;
+  }
+  .downloadApp {
+    padding-inline: 15px;  
+  }
+}

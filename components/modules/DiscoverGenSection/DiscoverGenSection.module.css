@@ -1,0 +1,82 @@
+.discoverGenSection {
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom:80px;
+}
+.discoverGenInnerSection {
+  align-items: center;
+}
+.vehicleTextSection {
+  font-size: 20px;
+}
+.discoverGenTextSection {
+  font-size: 20px;
+}
+.eScooterSection {
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 421.34px;
+  width: 413.34px;
+  max-width: 414px;
+  min-width: 300px;
+}
+.eScooterText {
+  font-size: 20px;
+}
+.eBikeSection {
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 421.34px;
+  width: 413.34px;
+  max-width: 414px;
+  min-width: 300px;
+}
+.eBikeText {
+  font-size: 20px;
+}
+
+.scooterSize {
+  width: 253px;
+  height: 253px;
+}
+
+.eBikeSize {
+  width: 253px;
+  height: 253px;
+}
+
+@media (max-width: 900px) {
+  .electricVehicleSection {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+    padding-inline: 20px;
+  }
+  .eScooterSection {
+    flex-direction: row;
+    width: 100%;
+    max-width: 502px;
+    margin: auto;
+  }
+  .eBikeSection {
+    flex-direction: row;
+    height: 421.34px;
+    width: 100%;
+    max-width: 502px;
+    margin: auto;
+  }
+  .scooterSize {
+    width: 211px;
+    height: 211px;
+  }
+  .eBikeSize {
+    width: 211px;
+    height: 211px;
+  }
+}

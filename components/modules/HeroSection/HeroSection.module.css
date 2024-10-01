@@ -1,0 +1,131 @@
+.outerWrapper {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.header {
+  height: rem(60px);
+  padding-left: rem(80px);
+  padding-right: rem(80px);
+  background-color: transparent;
+  position: absolute;
+  width: 99.8%;
+  margin-top: 20px;
+  @media (min-width: rem(1580px)) {
+    padding-left: rem(270px);
+    padding-right: rem(270px);
+  }
+
+  @media (max-width: $mantine-breakpoint-md) {
+    padding-left: rem(50px);
+    padding-right: rem(50px);
+  }
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    padding-left: rem(10px);
+    padding-right: rem(10px);
+  }
+}
+
+.backgroundImage {
+  height: 792px;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: bottom;
+  @media (max-width: 768px) {
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    background-size: cover;
+  }
+}
+
+.heroSectionTextWrapper {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.greenTextOuterContainer {
+  flex-direction: column;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width: 500px;
+    align-self: flex-start;
+    margin-top: 100px;
+    gap: 30px;
+  }
+}
+
+.rideGreenText {
+  font-size: 72px;
+  font-weight: 400;
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: var(--mantine-spacing-md);
+  padding-right: var(--mantine-spacing-md);
+  text-decoration: none;
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  font-weight: 500;
+  font-size: var(--mantine-font-size-sm);
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    height: rem(42px);
+    width: 100%;
+  }
+
+  /* @mixin hover {
+      background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+    } */
+}
+
+.subLink {
+  width: 100%;
+  padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
+  border-radius: var(--mantine-radius-md);
+
+  @mixin hover {
+    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-7));
+  }
+}
+
+.dropdownFooter {
+  background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-7));
+  margin: calc(var(--mantine-spacing-md) * -1);
+  margin-top: var(--mantine-spacing-sm);
+  padding: var(--mantine-spacing-md) calc(var(--mantine-spacing-md) * 2);
+  padding-bottom: var(--mantine-spacing-xl);
+  border-top: rem(1px) solid light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-5));
+}
+
+.logoStyle {
+  gap: rem(70px);
+
+  @media (max-width: $mantine-breakpoint-md) {
+    gap: rem(20px);
+  }
+}
+
+
+.languageSection {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+}
